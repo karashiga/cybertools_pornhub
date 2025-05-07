@@ -18,18 +18,15 @@ def clear_screen():
 
 def display_banner(title):
     console.print(Panel(
-        f"""
+        """
 [blue]INFORMATION :
 Maker   : Jaxon Vaughn
 Tool    : Cyber Spam Tools 
 Status  : [green]ACTIVE
-
 [blue]REACH US : 
 facebook : fb.com/jaxonvaughnrpw
 email    : selleraccph@gmail.com
-
 [violet]TOOLS Version : [green]2.4
-
         """,
         title=f"[green]●[yellow] {title} [/]",
         width=65,
@@ -42,8 +39,8 @@ def main_menu():
         display_banner("CYBER TOOL")
         console.print(Panel(
             """
-[green]1. Cyber Spam Share
-[green]2. Cyber Token Getter
+[green]1. Spam Share
+[green]2. Token Getter
 [red]3. Exit
             """,
             width=65,
