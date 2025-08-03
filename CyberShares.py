@@ -20,13 +20,11 @@ def display_banner(title):
     console.print(Panel(
         """
 [blue]INFORMATION :
-Maker   : Jaxon Vaughn
+Maker   : Grey Sombr
+Telegram: https://t.me/CodeDrops1997
 Tool    : Cyber Spam Tools 
 Status  : [green]ACTIVE
-[blue]REACH US : 
-facebook : fb.com/jaxonvaughnrpw
-email    : selleraccph@gmail.com
-[violet]TOOLS Version : [green]2.4
+[violet]TOOLS Version : [green]5.8
         """,
         title=f"[green]●[yellow] {title} [/]",
         width=65,
@@ -175,3 +173,4 @@ def make_request(email, password, twofactor_code=None):
 
 if __name__ == '__main__':
     main_menu()
+
